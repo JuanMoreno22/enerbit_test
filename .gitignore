@@ -1,0 +1,6 @@
+# Ignorar el entorno virtual
+src/venv/
+
+# Ignorar las carpetas de caché de Python d
+src/__pycache__/
+src/app/__pycache__/

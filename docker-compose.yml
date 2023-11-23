@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: enerbit_test
+      POSTGRES_USER: enerbit
+      POSTGRES_PASSWORD: 123456
+      TZ: "America/Bogota"
+    ports:
+      - "5432:5432"
+    networks:
+      - ebnet
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+    networks:
+      - ebnet
+
+networks:
+  ebnet:
+
+volumes:
+  postgres_data:
