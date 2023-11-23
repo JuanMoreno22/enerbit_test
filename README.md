@@ -29,10 +29,11 @@ Un paso a paso de cómo poner en marcha un entorno de desarrollo en ejecución.
 
 3. En una nueva consola accede a la carpeta `src` del proyecto para configurar el entorno virtual y las dependencias:
 
- ####   IMPORTANTE:
+    ####   IMPORTANTE:
 
- *Despues de activar VENV , verificar si vscode lo tomo como el interprete principal, puede hacerlo mediante el 	comando Ctrl + Shift + p, en el buscador digitar "Select Interpreter" y dar clic. Si no aparece en la lista venv, dar clic en  "Enter interpreter path", Buscar y seleccionar el archivo en la siguiente ruta src\venv\Scripts\python.exe.
-Realizar de nuevo la verificación y si es exitosa proceder con la instalación de las librerías.*
+    *Despues de activar VENV , verificar si vscode lo tomo como el interprete principal, puede hacerlo mediante el 	comando Ctrl + Shift + p, en el buscador digitar "Select Interpreter" y dar clic. Si no aparece en la lista venv, dar clic en  "Enter interpreter path", 
+     Buscar y seleccionar el archivo en la siguiente ruta src\venv\Scripts\python.exe.
+     Realizar de nuevo la verificación y si es exitosa proceder con la instalación de las librerías.*
 
    ```bash
    cd src
